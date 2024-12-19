@@ -1,0 +1,15 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "prompter_plg",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    }
+  ],
+  "generated": "2024-12-18T23:50:13.701879Z",
+  "generator": "pub",
+  "generatorVersion": "3.6.0",
+  "pubCache": "file:///home/plinio/.pub-cache"
+}

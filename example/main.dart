@@ -1,3 +1,6 @@
+import 'package:prompter_plg/src/terminal.dart';
+
 void main() {
-  print("Hi there!");
+  var trm = Terminal();
+  trm.printPrompt('Test');
 }
