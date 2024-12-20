@@ -5,11 +5,11 @@
       "name": "prompter_plg",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.6"
+      "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-12-18T23:50:13.701879Z",
+  "generated": "2024-12-20T13:02:44.091809Z",
   "generator": "pub",
-  "generatorVersion": "3.6.0",
-  "pubCache": "file:///home/plinio/.pub-cache"
+  "generatorVersion": "3.7.0-243.0.dev",
+  "pubCache": "file:///C:/Users/dti-053/AppData/Local/Pub/Cache"
 }

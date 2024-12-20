@@ -3,4 +3,4 @@ version: 0.0.1
 description: Library to create CLI wizards 
 
 environment:
-  sdk: '^3.6.0'
+  sdk: '^3.5.0'

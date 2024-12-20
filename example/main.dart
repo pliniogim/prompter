@@ -1,19 +1,15 @@
-import 'package:prompter_plg/src/terminal.dart';
+import 'package:prompter_plg/src/prompter.dart';
 import 'package:prompter_plg/src/option.dart';
 
 void main() {
-  var trm = Terminal();
-
   var options = [
-    new Option('I want red', '#00f'),
+    new Option('I want red', '#f00'),
     new Option('I want blue', '#00f'),
   ];
 
+  final prompter = new Prompter();
 
-  trm.clearScreen();
-  trm.printPrompt('Options test');
-  trm.printOptions(options);
-  String answer = trm.collectInput();
-  trm.printPrompt(answer);
-  // trm.clearScreen();
+  final usersPick = prompter.ask("What color do you like?", options);
+
+  print(usersPick);
 }
