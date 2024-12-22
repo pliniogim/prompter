@@ -9,7 +9,10 @@ class Prompter {
   bool askBinary(String prompt){
 
     String input = _ask('$prompt (Y/n)', []);
-    return input.contains('y');
+    if (input.length > 1){
+      askBinary(prompt);
+    }
+    return input.toLowerCase().contains('y');
 
   }
 
