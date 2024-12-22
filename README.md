@@ -1,0 +1,1 @@
+CLI "prompter" for multiple/binary choices.
