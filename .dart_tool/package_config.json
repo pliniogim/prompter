@@ -8,8 +8,8 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-12-20T13:02:44.091809Z",
+  "generated": "2024-12-22T21:35:26.891583Z",
   "generator": "pub",
-  "generatorVersion": "3.7.0-243.0.dev",
-  "pubCache": "file:///C:/Users/dti-053/AppData/Local/Pub/Cache"
+  "generatorVersion": "3.6.0",
+  "pubCache": "file:///home/plinio/.pub-cache"
 }
